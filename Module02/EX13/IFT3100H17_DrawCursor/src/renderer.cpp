@@ -31,8 +31,8 @@ void Renderer::draw()
 // fonction qui dessine un curseur
 void Renderer::drawCursor(float x, float y) const
 {
-  float length = 10;
-  float offset = 5;
+  float length = 10.0f;
+  float offset = 5.0f;
 
   ofDrawLine(x + offset, y, x + offset + length, y);
   ofDrawLine(x - offset, y, x - offset - length, y);
