@@ -27,13 +27,13 @@ float yPolygon = 0.0f;
 float diameter = width  / countPolygon;
 float radius   = height / 3.0f;
 
-// une itération de la boucle pour chaque polygone 
+// une itération de la boucle pour chaque polygone
 for(indexPolygon = 0; indexPolygon < countPolygon; ++indexPolygon)
 {
   // calculer l'angle qui sépare chaque sommet du polygone
   offset = radians(360.0f / side);
 
-  // calculer la position du centre du polygone 
+  // calculer la position du centre du polygone
   xPolygon = radius + indexPolygon * diameter;
   yPolygon = height / 2.0f;
 
@@ -43,11 +43,11 @@ for(indexPolygon = 0; indexPolygon < countPolygon; ++indexPolygon)
   // une itération pour chaque sommet du polygone
   for(indexVertex = 0; indexVertex < side; ++indexVertex)
   {
-    // calculer la position du sommet 
+    // calculer la position du sommet
     xPosition = xPolygon + cos(angle) * radius;
     yPosition = yPolygon + sin(angle) * radius;
 
-    // ajouter un sommet à la forme vectorielle 
+    // ajouter un sommet à la forme vectorielle
     vertex(xPosition, yPosition);
 
     // incrémenter l'angle pour le prochain sommet

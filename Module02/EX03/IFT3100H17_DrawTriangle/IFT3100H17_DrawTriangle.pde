@@ -16,11 +16,11 @@ while(counter <= 16)
 
   // dessiner un triangle en fonction de la position x et y de ses trois sommets
   triangle(
-    random(0.0f, 1.0f) * width, 
-    random(0.0f, 1.0f) * height, 
-    random(0.0f, 1.0f) * width, 
-    random(0.0f, 1.0f) * height, 
-    random(0.0f, 1.0f) * width, 
+    random(0.0f, 1.0f) * width,
+    random(0.0f, 1.0f) * height,
+    random(0.0f, 1.0f) * width,
+    random(0.0f, 1.0f) * height,
+    random(0.0f, 1.0f) * width,
     random(0.0f, 1.0f) * height);
 
   ++counter;

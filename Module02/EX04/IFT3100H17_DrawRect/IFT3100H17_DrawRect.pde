@@ -4,7 +4,7 @@
 size(512, 512);
 background(0);
 strokeWeight(2);
-rectMode(CENTER); 
+rectMode(CENTER);
 
 float diameter = 512;
 
@@ -18,9 +18,9 @@ while(diameter > 10)
 
   // dessiner un rectangle en fonction de la position x et y de son centre, d'une largeur et d'une hauteur
   rect(
-    width / 2.0f, 
-    height / 2.0f, 
-    diameter, 
+    width / 2.0f,
+    height / 2.0f,
+    diameter,
     diameter);
 
   diameter *= 0.95f;

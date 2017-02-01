@@ -15,13 +15,13 @@ while(counter <= 16)
   fill(int(random(0.0f, 1.0f) * 255.0f));
 
   quad(
-    random(0.0f, 1.0f) * width, 
-    random(0.0f, 1.0f) * height,    
-    random(0.0f, 1.0f) * width, 
-    random(0.0f, 1.0f) * height, 
-    random(0.0f, 1.0f) * width, 
-    random(0.0f, 1.0f) * height, 
-    random(0.0f, 1.0f) * width, 
+    random(0.0f, 1.0f) * width,
+    random(0.0f, 1.0f) * height,
+    random(0.0f, 1.0f) * width,
+    random(0.0f, 1.0f) * height,
+    random(0.0f, 1.0f) * width,
+    random(0.0f, 1.0f) * height,
+    random(0.0f, 1.0f) * width,
     random(0.0f, 1.0f) * height);
 
   ++counter;

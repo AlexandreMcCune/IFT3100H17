@@ -5,7 +5,7 @@ size(512, 512);
 
 background(0);
 strokeWeight(2);
-rectMode(CENTER); 
+rectMode(CENTER);
 
 float radius = 512.0f;
 
@@ -19,9 +19,9 @@ while(radius > 10)
 
   // dessiner une ellipse en fonction de la position x et y de son centre, d'une largeur et d'une hauteur
   ellipse(
-    width / 2.0f, 
-    height / 2.0f, 
-    radius, 
+    width / 2.0f,
+    height / 2.0f,
+    radius,
     radius);
 
   radius *= 0.95f;

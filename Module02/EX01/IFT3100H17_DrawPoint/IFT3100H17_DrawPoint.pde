@@ -10,11 +10,11 @@ for(int index = 1; index <= 35; ++index)
 {
   // taille du point
   strokeWeight(weight);
- 
+
   // dessiner un point en fonction de sa position x et y
   point(index * weight, height / 2.0f);
- 
-  // incrémenter la taille pour le prochain point 
+
+  // incrémenter la taille pour le prochain point
   weight += 1.0f;
 }
 

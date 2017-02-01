@@ -16,8 +16,8 @@ for(int index = 1; index <= 35; ++index)
 
   // dessiner une ligne en fonction de la position x et y de ses deux sommets
   line(
-    index * (weight + offset), 
-    height / 4.0f, 
+    index * (weight + offset),
+    height / 4.0f,
     index * (weight + offset) + (offset * 7.0f),
     height / 4.0f * 3.0f);
 

@@ -117,7 +117,7 @@ void draw()
   fill(colorFill, 255);
 
   text(strDisplay, 15, 30);
-  
+
   // affichage du sujet
   strDisplay = strSubject;
 
@@ -199,7 +199,7 @@ void selectRandomFont()
 {
   indexCurrentFont = int(random(nbOfFont - 1));
   strCurrentFont = strFont[indexCurrentFont];
-  
+
   switch(indexCurrentFont)
   {
     case 0:
@@ -233,7 +233,7 @@ void selectRandomFont()
       font = fontRosewood;
       break;
   }
-  
+
   println("font: " + strCurrentFont);
 
   // couleur au hasard
