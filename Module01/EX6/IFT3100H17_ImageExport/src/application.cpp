@@ -1,4 +1,4 @@
-// IFT3100H17_ImageExport/Application.cpp
+// IFT3100H17_ImageExport/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
