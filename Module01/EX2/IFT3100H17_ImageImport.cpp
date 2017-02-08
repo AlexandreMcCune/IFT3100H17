@@ -1,7 +1,7 @@
 // IFT3100H17_ImageImport.cpp
 // Exemple d'une section de code pour importer une image et la convertir en texture avec OpenGL.
 
-// préconditions
+// précondition
 // - Une référence vers un fichier image existant (chemin d'accès local ou URL)
 // - ensemble des propriétés de l'image
 int imageWidth;
@@ -10,7 +10,7 @@ int imageComponent;
 int imagePixelCount;
 int imageSize;
 
-// postconditions
+// postcondition
 // - une texture créée à partir de l'image, chargée en mémoire vidéo (GPU), adéquatement configurée et prête à l'utilisation
 
 // déclarer un identifiant pour référencer la texture
