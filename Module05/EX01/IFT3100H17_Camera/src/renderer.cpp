@@ -67,7 +67,7 @@ void Renderer::reset()
   colorOffset = 255.0f / cubeCount;
   cameraOffset = sceneOffset * 3.5f * -1.0f;
 
-  // position initiale de de chaque caméra
+  // position initiale de chaque caméra
   cameraFront.setPosition(0, 0, -cameraOffset);
   cameraBack.setPosition(0, 0, cameraOffset);
   cameraLeft.setPosition(-cameraOffset, 0, 0);
