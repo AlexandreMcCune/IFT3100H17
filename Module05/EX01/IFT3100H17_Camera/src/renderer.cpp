@@ -72,8 +72,8 @@ void Renderer::reset()
   cameraBack.setPosition(0, 0, cameraOffset);
   cameraLeft.setPosition(-cameraOffset, 0, 0);
   cameraRight.setPosition(cameraOffset, 0, 0);
-  cameraTop.setPosition(0, cameraOffset / 2.0f, 0);
-  cameraDown.setPosition(0, -cameraOffset / 2.0f, 0);
+  cameraTop.setPosition(0, cameraOffset, 0);
+  cameraDown.setPosition(0, -cameraOffset, 0);
 
   // orientation de chaque caméra
   cameraFront.lookAt(cameraTarget);
