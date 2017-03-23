@@ -9,7 +9,7 @@ vec3 view; // vecteur normalisé en direction d'une caméra
 float p; // facteur de puissance spéculaire
 
 // exemple 1 : normaliser un vecteur
-float v = normalize(vec3(1.0, 2.0, 3.0));
+vec3 v = normalize(vec3(1.0, 2.0, 3.0));
 
 // exemple 2 : calculer le produit croisé entre deux axes
 vec3 zaxis = cross(vec3(1.0, 0.0, 0.0), vec3(0.0, 1.0, 0.0));
