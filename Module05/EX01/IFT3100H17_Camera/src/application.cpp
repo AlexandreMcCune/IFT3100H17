@@ -30,7 +30,7 @@ Application::Application()
 
 void Application::setup()
 {
-  ofLog() << "<application::setup>";
+  ofLog() << "<app::setup>";
 
   renderer = new Renderer();
 
@@ -40,7 +40,7 @@ void Application::setup()
 void Application::update()
 {
   if(renderer->isCameraPerspective)
-    ofSetWindowTitle("camera " + renderer->cameraName + " perpective (1-6 ↑↓←→ wasdqe uhjkyi zx fgcvb)");
+    ofSetWindowTitle("camera " + renderer->cameraName + " perspective (1-6 ↑↓←→ wasdqe uhjkyi zx fgcvb)");
   else
     ofSetWindowTitle("camera " + renderer->cameraName + " orthographic");
 
@@ -321,7 +321,7 @@ void Application::keyReleased(int key)
 
 void Application::exit()
 {
-  ofLog() << "<application::exit>";
+  ofLog() << "<app::exit>";
 }
 
 Application::~Application()
