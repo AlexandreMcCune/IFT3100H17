@@ -35,7 +35,7 @@ void Application::setup()
 
 void Application::update()
 {
-  ofSetWindowTitle("illumination: " + renderer->shaderName + " (" + renderer->shaderVersion + ") (1-5 ↑↓←→ f)");
+  ofSetWindowTitle("illumination classique " + renderer->shaderName + " (" + renderer->shaderVersion + ") (1-5 ↑↓←→ f)");
 
   timeCurrent = ofGetElapsedTimef();
   timeElapsed = timeCurrent - timeLast;
